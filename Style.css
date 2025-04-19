@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height:65px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.logo{
+    height: 60px;
+    width: 109px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+.nav-loc{
+    margin-left:15px;
+    margin-bottom: 2px;
+}
+.nav-icon{
+    margin-top: 16px;
+    margin-left: 3px;
+    display: inline-block;
+}
+.nav-address1{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    display: inline-block;
+    padding-top: 12px;
+}
+.nav-address2{
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+#nav-search{
+    background-color: white;
+    margin-left: 20px;
+    height: 40px;
+    width: 900px;
+    margin-top: 15px;
+    border: none;
+    display: flex;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.select-from{
+    background-color:lightgrey;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 39px;
+    width: 50px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.input-search{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+#hehe{
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color:orange;
+    height: 40px;
+    width:60px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.nav-flag{
+    margin-left:25px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+.select-country{
+    background-color: #0f1111;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.sign-in{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#Hello{
+    font-weight: 200;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.account-list{
+    background-color: #0f1111;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+.returns-orders{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#return{
+    font-size: 12px;
+    font-weight: 200;
+}
+.orders{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+.cart{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 2rem;
+    display: flex;
+}
+.c{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+.nav-content{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: row;
+    font: white;
+}
+.menu{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+.nav-all-icon{
+    margin-left: 8px;
+    display: flex;
+    margin-bottom: 2px;
+}
+.all{
+    color: white;
+    margin-left: 3px;
+    margin-top: 13px;
+    font-size: 14px;
+}
+.options p{
+    display:inline;
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.options{
+    width: 83%;
+    margin-top: 12px;
+}
+.side-option{
+    color: white;
+    margin-top: 12px;
+}
+.hero-img{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 260px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+}
+.box h2{
+    margin-top: 10px;
+    margin-left:20px ;
+    font-size: 21px;
+}
+.box1 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box1img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+}
+.box2 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box2img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+}
+.box3 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box3img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+}
+.box4 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box4img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+}
+.box5 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box5img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+}
+.box6 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box6img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+}
+.box7 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box7img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+}
+.box8 p{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.box8img{
+    height: 300px; 
+    margin: 20px;
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+}
+.panel1{
+    height: 39px;
+    width: 1590px;
+    background-color:#37475a ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.panel2{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+}
+.panel2 p{
+    font-weight: bold;
+}
+.panel2 ul{
+    margin-top: 20px;
+    color: white;
+}
+ul a{
+    display: block;
+}
+.panel3{
+    display: flex;
+    justify-content: center;
+    background-color: #222f3d;
+    height: 70px;
+}
+.logo-img{
+    margin-top: 2px;
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.panel4{
+    height: 49px;
+    background-color: #0f1111;
+    color: white;
+}
+.panel4-links{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+.copywright{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    font: 14px;
+}
+
